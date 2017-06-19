@@ -1,0 +1,58 @@
+
+.container-item {
+  display: table;
+}
+
+.column-item {
+  display: table-cell;
+}
+
+.item-image {
+  height: 180px;
+  width: 180px;
+  border-radius: 4px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.price-title-div, .city-name-div {
+  vertical-align: top;
+}
+
+.price-place-div {
+  margin-top: 16px;
+}
+
+.item-city-name {
+  margin-top: 16px;
+  margin-right: 5px;
+}
+
+.price-title-div {
+  width: 70%;
+}
+
+.city-name-div {
+  width: 20%;
+  font-size: 12px;
+}
+
+.item-price {
+  font-size: 24px;
+  margin-bottom: 64px;
+}
+
+.item-title-div {
+  font-size: 18px;
+}
+
+.free-shipping-image {
+  margin-left: 5px;
+}
+
+.hr-item-separator {
+  color: #cccccc;
+  border: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

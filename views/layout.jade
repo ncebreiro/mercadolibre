@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title=title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel="shortcut icon", href="/images/Logo_ML@2x.png.png")
+        block extra_head
+    body
+        .searcher
+            .logo
+                img(src='/images/Logo_ML.png')
+            form(action='/items', class='searcher-form')
+                input(type="text", class="searcher-input", name="search" placeholder="Nunca dejes de buscar", value=search_box)
+                button(type="submit", class="searcher-button")
+                    img(src='images/ic_Search.png')
+        block content

@@ -1,0 +1,38 @@
+
+.container-item {
+  display: table;
+}
+
+.column-item {
+  display: table-cell;
+}
+
+.item-image {
+  width: 680px;
+  height: 680px;
+}
+
+.item-title-div{
+  margin-top: 32px;
+  vertical-align: top;
+}
+
+.item-sold {
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.item-title {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.item-price {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 46px;
+}
+
+.submit-item {
+  color: #3483FA;
+}

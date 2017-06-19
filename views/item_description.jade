@@ -1,0 +1,30 @@
+extends layout
+
+block extra_head
+    link(rel='stylesheet', href='/stylesheets/items-search.css')
+    link(rel='stylesheet', href='/stylesheets/item-description.css')
+
+block content
+    div(class='center-div')
+        div(class='container-item')
+            div(class='item-image-div column-item')
+                img(src='#{item.secure_thumbnail}', class='item-image')
+            div(class='item-title-div column-item')
+                div(class='item-sold')
+                    if item.condition == "used"
+                        |Usado - #{item.sold_quantity} vendidos
+                    else
+                        |Nuevo - #{item.sold_quantity} vendidos
+                b
+                    div(class='item-title')
+                        |#{item.title}
+                div(class='item-price')
+                    $ #{item.price}
+                div(class='buy-item-button')
+                    button(type="submit", class='submit-item')
+        div(class='description-item')
+            if item_description.text
+                |#{item_description.text}
+            else
+                |#{item_description.plain_text}
+

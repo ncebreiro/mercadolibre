@@ -1,0 +1,24 @@
+extends layout
+
+block extra_head
+    link(rel='stylesheet', href='/stylesheets/items-search.css')
+
+block content
+    div(class='center-div')
+        each item, i in items.results
+            div(class='container-item')
+                div(class='item-image-div column-item')
+                    a(href='/items/#{item.id}')
+                        img(src='#{item.thumbnail}', class='item-image')
+                div(class='price-title-div column-item')
+                    div(class='price-place-div inner-content')
+                        div(class='item-price')
+                            |$ #{item.price}
+                            if item.shipping.free_shipping
+                                img(src='images/ic_shipping.png', class='free-shipping-image')
+                    div(class='item-title-div inner-content')
+                        |#{item.title}
+                div(class='city-name-div column-item')
+                    div(class='item-city-name')
+                            |#{item.address.city_name}
+            hr(class='hr-item-separator')
