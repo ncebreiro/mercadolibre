@@ -8,9 +8,10 @@ html
     body
         .searcher
             .logo
-                img(src='/images/Logo_ML.png')
+                a(href='/')
+                    img(src='/images/Logo_ML.png')
             form(action='/items', class='searcher-form')
                 input(type="text", class="searcher-input", name="search" placeholder="Nunca dejes de buscar", value=search_box)
                 button(type="submit", class="searcher-button")
-                    img(src='images/ic_Search.png')
+                    img(src='/images/ic_Search.png')
         block content

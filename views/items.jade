@@ -4,7 +4,10 @@ block extra_head
     link(rel='stylesheet', href='/stylesheets/items-search.css')
 
 block content
+    include includes/categories
     div(class='center-div')
+        div(class='extended-div')
+        div(class="item-description-top-plane")
         each item, i in items.results
             div(class='container-item')
                 div(class='item-image-div column-item')
@@ -22,3 +25,4 @@ block content
                     div(class='item-city-name')
                             |#{item.address.city_name}
             hr(class='hr-item-separator')
+        div(class='extended-div')

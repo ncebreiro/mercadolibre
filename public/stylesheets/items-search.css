@@ -39,7 +39,7 @@
 
 .item-price {
   font-size: 24px;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .item-title-div {
@@ -55,4 +55,15 @@
   border: 0px;
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+.categories {
+  font-size: 14px;
+  color: #999999;
+}
+
+.description-item {
+  margin-left: 32px;
+  margin-bottom: 32px;
+  margin-right: 32px;
 }

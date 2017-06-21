@@ -57,9 +57,22 @@ body {
 }
 
 
-.center-div {
-  background-color: white;
+.center-div, .categories-div {
   width: 1000px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.center-div {
+  background-color: white;
+}
+
+.center-div {
+  margin-bottom: 15px;
+}
+
+.extended-div {
+  clear: both;
+  height: 16px;
+  background-color: white;
 }

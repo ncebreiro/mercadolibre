@@ -1,0 +1,8 @@
+div(class='categories-div')
+    span(class="categories")
+        each category, i in categories.path_from_root
+            if i == (categories.path_from_root.length  - 1)
+                b
+                    |&nbsp;#{category.name}
+            else
+                |&nbsp;#{category.name} >

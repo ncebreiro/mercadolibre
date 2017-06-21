@@ -1,38 +1,62 @@
 
 .container-item {
-  display: table;
+    display: table;
+    margin-bottom: 16px;
 }
 
 .column-item {
-  display: table-cell;
+    display: table-cell;
 }
 
 .item-image {
-  width: 680px;
-  height: 680px;
+    width: 680px;
+    height: 680px;
 }
 
-.item-title-div{
-  margin-top: 32px;
-  vertical-align: top;
+.item-title-div {
+    margin-top: 32px;
+    vertical-align: top;
 }
 
 .item-sold {
-  margin-top: 32px;
-  font-size: 14px;
+    margin-top: 32px;
+    font-size: 14px;
 }
 
 .item-title {
-  margin-top: 16px;
-  font-size: 24px;
+    margin-top: 16px;
+    font-size: 24px;
 }
 
 .item-price {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  font-size: 46px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 46px;
+}
+
+.buy-item-button {
+    height: 32px;
+    width: 260px;
 }
 
 .submit-item {
-  color: #3483FA;
+    background-color: #3483FA;
+    border: none;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 230px;
+    height: 32px;
+    color: white;
+}
+
+.item-description-text-plane {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: #999999;
+}
+
+.item-description-title {
+    font-size: 28px;
 }

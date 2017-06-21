@@ -5,10 +5,11 @@ block extra_head
     link(rel='stylesheet', href='/stylesheets/item-description.css')
 
 block content
+    include includes/categories
     div(class='center-div')
         div(class='container-item')
             div(class='item-image-div column-item')
-                img(src='#{item.secure_thumbnail}', class='item-image')
+                img(src='#{item.pictures[0].url}', class='item-image')
             div(class='item-title-div column-item')
                 div(class='item-sold')
                     if item.condition == "used"
@@ -22,9 +23,15 @@ block content
                     $ #{item.price}
                 div(class='buy-item-button')
                     button(type="submit", class='submit-item')
+                        |Comprar
         div(class='description-item')
+            span(class='item-description-title')
+                b
+                    |Descripción del producto
             if item_description.text
-                |#{item_description.text}
+                |!{item_description.text}
             else
-                |#{item_description.plain_text}
+                div(class='item-description-text-plane')
+                    |#{item_description.plain_text}
+            div(class='extended-div')
 
