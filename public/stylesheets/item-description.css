@@ -68,3 +68,27 @@
 .item-sold {
     margin-top: 32px;
 }
+
+@media (max-width: 1250px)  {
+    .center-div {
+        width: 90%!important;
+    }
+}
+
+@media (max-width: 1100px)  {
+    .center-div {
+        width: 95%!important;
+    }
+}
+
+@media (max-width: 1050px)  {
+    .center-div {
+        width: 98%!important;
+    }
+}
+
+@media (max-width: 1000px)  {
+    .center-div {
+        width: 100%!important;
+    }
+}

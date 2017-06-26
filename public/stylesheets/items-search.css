@@ -66,3 +66,16 @@
   margin-bottom: 32px;
   margin-right: 32px;
 }
+
+
+@media (max-width: 500px)  {
+    .center-div-search {
+        width: 90%!important;
+    }
+}
+
+@media (max-width: 400px)  {
+    .center-div-search {
+        width: 100%!important;
+    }
+}
