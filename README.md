@@ -4,12 +4,7 @@
 
 - Se requiere de una distribución linux 
 - Tener Node instalado
-
-# Instalación de Node
-
-cd /tmp
-wget http://nodejs.org/dist/v0.10.32/node-v0.10.32-linux-x64.tar.gz
-tar xvf node-v0.10.32-linux-x64.tar.gz
+- Tener NPM instalado
   
 # Descargar proyecto
 
