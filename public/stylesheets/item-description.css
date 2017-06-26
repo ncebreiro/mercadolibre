@@ -34,6 +34,10 @@
     font-size: 46px;
 }
 
+.item-title, .item-price {
+    color: #333333;
+}
+
 .buy-item-button {
     height: 32px;
     width: 260px;
@@ -59,4 +63,8 @@
 
 .item-description-title {
     font-size: 28px;
+}
+
+.item-sold {
+    margin-top: 32px;
 }

@@ -60,7 +60,6 @@ body {
   display: inherit;
 }
 
-
 .center-div, .categories-div {
   width: 80%;
   margin: 0 auto;
@@ -72,8 +71,23 @@ body {
   margin-bottom: 15px;
 }
 
-.extended-div {
+.extended-div, big-extended-div {
   clear: both;
-  height: 16px;
   background-color: white;
+}
+
+.extended-div {
+  height: 16px;
+}
+
+.big-extended-div {
+  height: 32px;
+}
+
+.light-grey-font {
+  color: #999999;
+}
+
+.grey-font {
+  color: #666666;
 }

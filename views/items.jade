@@ -15,14 +15,14 @@ block content
                         img(src='#{item.thumbnail}', class='item-image')
                 div(class='price-title-div column-item')
                     div(class='price-place-div inner-content')
-                        div(class='item-price')
+                        div(class='item-price grey-font')
                             |$ #{item.price}
                             if item.shipping.free_shipping
                                 img(src='images/ic_shipping.png', class='free-shipping-image')
-                    div(class='item-title-div inner-content')
+                    div(class='item-title-div inner-content grey-font')
                         |#{item.title}
                 div(class='city-name-div column-item')
-                    div(class='item-city-name')
+                    div(class='item-city-name light-grey-font')
                             |#{item.address.city_name}
             hr(class='hr-item-separator')
         div(class='extended-div')
