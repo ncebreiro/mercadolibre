@@ -70,19 +70,19 @@
 }
 
 @media (max-width: 1250px)  {
-    .center-div, .searcher {
+    .center-div {
         width: 90%!important;
     }
 }
 
 @media (max-width: 1100px)  {
-    .center-div, .searcher {
+    .center-div {
         width: 95%!important;
     }
 }
 
 @media (max-width: 1050px)  {
-    .center-div, .searcher {
+    .center-div {
         width: 98%!important;
     }
 }
