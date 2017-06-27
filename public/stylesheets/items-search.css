@@ -10,9 +10,8 @@
 .item-image {
   height: 180px;
   width: 180px;
-  border-radius: 4px;
-  margin-left: 16px;
-  margin-right: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .price-title-div, .city-name-div {

@@ -12,7 +12,7 @@ block content
             div(class='container-item')
                 div(class='item-image-div column-item')
                     a(href='/items/#{item.id}')
-                        img(src='#{item.thumbnail}', class='item-image')
+                        div(class='item-image', style='background-image: url(#{item.thumbnail});')
                 div(class='price-title-div column-item')
                     div(class='price-place-div inner-content')
                         div(class='item-price grey-font')

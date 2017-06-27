@@ -8,8 +8,7 @@ block content
     include includes/categories
     div(class='center-div')
         div(class='container-item')
-            div(class='item-image-div column-item')
-                img(src='#{item.pictures[0].url}', class='item-image')
+            div(class='item-image-div column-item', style='background-image: url(#{item.pictures[0].url});')
             div(class='item-title-div column-item')
                 div(class='item-sold')
                     if item.condition == "used"
